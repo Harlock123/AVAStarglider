@@ -3,7 +3,8 @@ using Avalonia.Input;
 namespace AVAStarglider.Engine;
 
 /// <summary>
-/// Keyboard and gamepad boiled down to the controls: left and right, up and down (up the screen is -1), and three buttons.
+/// Keyboard and gamepad boiled down to the controls: left and right, up and down (up the screen is -1), climb and
+/// dive, fire and a missile.
 /// </summary>
 public sealed class InputHandler : IDisposable
 {
